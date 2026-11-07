@@ -1,0 +1,56 @@
+:root {
+  /* Primitive brand colors */
+  --ff-cream-50: #fcf8f2;
+  --ff-cream-100: #f3eadf;
+  --ff-cream-200: #e6d9cd;
+  --ff-rose-100: #f0e2df;
+  --ff-rose-200: #edd7d4;
+  --ff-berry-700: #824151;
+  --ff-berry-800: #66303c;
+  --ff-ink-900: #342720;
+  --ff-muted-700: #71635b;
+  --ff-gold-500: #c49350;
+  --ff-line-200: #e8ded3;
+  --ff-white-warm: #fffaf4;
+
+  /* Semantic colors */
+  --color-page: var(--ff-cream-50);
+  --color-surface: var(--ff-white-warm);
+  --color-surface-muted: var(--ff-cream-100);
+  --color-text: var(--ff-ink-900);
+  --color-text-muted: var(--ff-muted-700);
+  --color-brand: var(--ff-berry-700);
+  --color-brand-strong: var(--ff-berry-800);
+  --color-brand-soft: var(--ff-rose-100);
+  --color-brand-highlight: var(--ff-rose-200);
+  --color-brand-on-strong: var(--ff-white-warm);
+  --color-accent: var(--ff-gold-500);
+  --color-border: var(--ff-line-200);
+
+  /* Typography and spacing */
+  --font-display: "Amatic SC", "Playfair Display", Georgia, serif;
+  --font-body: "Cabin", Arial, sans-serif;
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --space-12: 3rem;
+  --space-16: 4rem;
+  --radius-square: 0;
+  --radius-circle: 50%;
+  --focus-ring: 2px solid var(--color-brand);
+  --ease-out: cubic-bezier(0.23, 1, 0.32, 1);
+  --ease-in-out: cubic-bezier(0.77, 0, 0.175, 1);
+
+  /* Component tokens */
+  --button-primary-bg: var(--color-brand);
+  --button-primary-hover-bg: var(--color-brand-strong);
+  --button-primary-fg: var(--color-brand-on-strong);
+  --button-min-height: 3rem;
+  --input-bg: var(--color-surface);
+  --input-border: #dbccbf;
+  --cake-image-surface: #f1e7de;
+  --section-spacing: clamp(4rem, 8vw, 7rem);
+}

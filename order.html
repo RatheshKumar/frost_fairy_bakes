@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Tell Frost Fairy about your cake idea and send your custom cake enquiry straight to WhatsApp." />
+    <meta name="theme-color" content="#fcf8f2" />
+    <title>Make It Yours — Custom Cake Orders | Frost Fairy</title>
+    <link rel="icon" href="images/logo.jpg" type="image/jpeg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Cabin:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;1,500;1,600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="design-tokens.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="editorial.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body class="order-page-body">
+    <a class="skip-link" href="#main">Skip to content</a>
+    <div class="page-ambience" aria-hidden="true"><span></span><span></span><span></span></div>
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="Frost Fairy Cakes and Bakes home"><img src="images/logo.jpg" alt="" class="brand-logo" /><span class="brand-name">Frost Fairy <small>Cakes &amp; Bakes</small></span></a>
+      <nav class="main-nav" aria-label="Main navigation"><a href="index.html">Home</a><a href="cakes.html">Cake collection</a><a class="active" aria-current="page" href="order.html">Custom orders</a></nav>
+      <a class="nav-order" href="https://wa.me/919080261893?text=Hi%20Frost%20Fairy!%20I%27d%20like%20to%20ask%20about%20ordering%20a%20cake." target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.1 11.9a8.1 8.1 0 0 1-12 7.1L4 20l1.1-4a8.1 8.1 0 1 1 15-4.1Z" /><path d="M9 8.5c.3-.6.7-.5 1-.5.2 0 .4 0 .5.4l.7 1.6c.1.3.1.5-.1.7l-.5.6c-.2.2-.3.4-.1.7.5.9 1.2 1.6 2.1 2.1.3.2.5.1.7-.1l.7-.8c.2-.2.4-.3.7-.2l1.6.8c.3.2.4.3.4.5-.1.5-.4 1.2-.9 1.5-.5.4-1.1.8-1.8.3-1-.3-2.1-.8-3.2-1.7-1.6-1.4-2.6-3-2.8-4-.2-.7-.1-1.4.2-1.9Z" /></svg><span>Order a cake</span></a>
+    </header>
+    <main id="main">
+      <section class="order-page-intro section-shell">
+        <p class="eyebrow"><span class="eyebrow-rule"></span> A note to the cake maker</p>
+        <h1>First, tell us<br />what feels <em>like you.</em></h1>
+        <p>A half-formed idea is more than enough. Leave us a few details; your note opens right in WhatsApp, ready for a real conversation.</p>
+        <span class="order-intro-flourish" aria-hidden="true">✳</span>
+        <aside class="order-intro-note"><span>THE ORDER DESK</span><strong>Good things<br />start with a note.</strong><span>01 — Tell us a little</span></aside>
+      </section>
+
+      <section class="order-layout section-shell">
+        <form class="order-form" id="cake-order-form">
+          <div class="form-heading"><span>01</span><div><h2>A few details to begin</h2><p>No perfect plan needed. Just tell us what you know.</p></div></div>
+          <div class="form-grid">
+            <label class="form-field">What are we celebrating?<select name="occasion" required><option value="" selected disabled>Choose an occasion</option><option>Birthday</option><option>Anniversary</option><option>Wedding</option><option>Baby shower</option><option>Just because</option><option>Something else</option></select></label>
+            <label class="form-field">When’s the big day?<input name="date" type="date" required /></label>
+            <label class="form-field">A flavour you love<input name="flavour" type="text" placeholder="Chocolate, vanilla, surprise me…" /></label>
+            <label class="form-field">About how many people?<select name="size"><option value="" selected>Choose a cake size</option><option>Small celebration</option><option>Gathering of friends and family</option><option>A big get-together</option><option>Help me choose</option></select></label>
+            <label class="form-field form-field-wide">What are you picturing?<textarea name="design" rows="4" placeholder="A colour, a theme, an inspiration photo… tell us anything you know so far."></textarea></label>
+            <label class="form-field form-field-wide">Anything else we should know?<input name="extra" type="text" placeholder="Name on the cake, dietary questions, or a little note…" /></label>
+          </div>
+          <p class="form-hint"><span aria-hidden="true">✳</span> Price and size are confirmed with you directly before anything is booked.</p>
+          <button class="button button-berry form-submit" type="submit">Continue to WhatsApp <span aria-hidden="true">↗</span></button>
+          <p class="form-feedback" id="form-feedback" aria-live="polite"></p>
+        </form>
+
+        <aside class="order-aside">
+          <div class="aside-photo"><img src="images/68121.webp" alt="Butterfly cake made for a birthday celebration" loading="lazy" /><span>Made for your kind of day</span></div>
+          <div class="aside-note"><span class="aside-note-mark" aria-hidden="true">✳</span><p>You don’t need to have every detail figured out.</p><span>Keep a reference photo handy and send it in WhatsApp after your message opens. A colour, a mood, or “I need cake” is a lovely place to start.</span></div>
+          <a class="aside-back-link" href="cakes.html">Still deciding? Browse the collection <span aria-hidden="true">→</span></a>
+        </aside>
+      </section>
+
+      <section class="inspiration-section">
+        <div class="section-shell">
+          <div class="section-heading inspiration-heading">
+            <div>
+              <p class="eyebrow"><span class="eyebrow-rule"></span> A few places for your imagination</p>
+              <h2>Start with a <em>feeling.</em></h2>
+            </div>
+            <a class="underlined-link" href="cakes.html">Browse the cake collection <span aria-hidden="true">→</span></a>
+          </div>
+          <div class="inspiration-grid">
+            <a class="inspiration-card" href="cakes.html"><img src="images/92626.webp" alt="Pink piped cake with butterfly decorations" loading="lazy" /><span><small>Soft &amp; pretty</small><strong>A little whimsy</strong></span></a>
+            <a class="inspiration-card" href="cakes.html"><img src="images/66871.webp" alt="Rich chocolate celebration cake with piped detail" loading="lazy" /><span><small>Rich &amp; chocolatey</small><strong>A chocolate kind of day</strong></span></a>
+            <a class="inspiration-card" href="cakes.html"><img src="images/IMG_7215.webp" alt="Lilac fairy cake decorated with butterflies and a tiny fairy house" loading="lazy" /><span><small>Big imagination</small><strong>A whole fairy garden</strong></span></a>
+          </div>
+        </div>
+      </section>
+
+      <section class="order-steps">
+        <div class="section-shell"><p class="eyebrow"><span class="eyebrow-rule"></span> What happens next</p><div class="step-grid">
+          <article><span>01</span><h2>Send your idea</h2><p>Your details open in a WhatsApp message for you to review.</p></article>
+          <article><span>02</span><h2>Chat it through</h2><p>We can figure out sizes, flavours, and design together.</p></article>
+          <article><span>03</span><h2>Make it official</h2><p>We’ll confirm the details with you before your date is set.</p></article>
+        </div></div>
+      </section>
+      <section class="order-faq section-shell" aria-labelledby="questions-title">
+        <div>
+          <p class="eyebrow"><span class="eyebrow-rule"></span> Before you say hello</p>
+          <h2 id="questions-title">A few little <em>questions.</em></h2>
+          <p>Not sure where to begin? No problem. We can work it out together in chat.</p>
+        </div>
+        <div class="faq-list">
+          <details>
+            <summary>Do I need to know my cake design already?<span aria-hidden="true"></span></summary>
+            <p>Not at all. Tell us the occasion or share a reference, a colour, a theme, or even a rough idea. We’ll talk it through.</p>
+          </details>
+          <details>
+            <summary>How do I find out the price and size?<span aria-hidden="true"></span></summary>
+            <p>Send your enquiry and ask us about the sizes and price for your idea. We’ll confirm those details with you directly before anything is booked.</p>
+          </details>
+          <details>
+            <summary>Can I order one of the cakes in the collection?<span aria-hidden="true"></span></summary>
+            <p>Yes — choose “Ask for details” on any cake card. That opens a WhatsApp message with that cake’s name already included.</p>
+          </details>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer"><div class="footer-main section-shell"><a class="brand footer-brand" href="index.html" aria-label="Frost Fairy Cakes and Bakes home"><img src="images/logo.jpg" alt="" class="brand-logo" loading="lazy" /><span class="brand-name">Frost Fairy <small>Cakes &amp; Bakes</small></span></a><p>Buttercream wishes, baked fresh.</p><a class="footer-instagram" href="https://www.instagram.com/frost_fairy7/" target="_blank" rel="noopener noreferrer">Find us on Instagram <span aria-hidden="true">↗</span></a></div><div class="footer-bottom"><span>© 2026 Frost Fairy Cakes &amp; Bakes</span><a href="index.html">Home</a><a href="cakes.html">Cake collection</a></div></footer>
+    <a class="mobile-order" href="https://wa.me/919080261893?text=Hi%20Frost%20Fairy!%20I%27d%20like%20to%20ask%20about%20ordering%20a%20cake." target="_blank" rel="noopener noreferrer">Order on WhatsApp</a>
+  </body>
+</html>
